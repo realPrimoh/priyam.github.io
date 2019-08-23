@@ -50,7 +50,7 @@
         <div id="lead-content">
             <h1>Priyam Mohanty</h1>
             <h2>UC Berkeley</h2>
-            <a href="priyam_mohanty_resume.pdf" class="btn-rounded-white">Download Resume</a>
+            <a href="Priyam_Mohanty_Resume.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -84,32 +84,33 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="August 2018 - Present">
-                <h3><a href="http://justinremais.weebly.com/">UC Berkeley School of Public Health</a></h3>
-                <h4>Software Development Intern</h4>
+            <div data-date="May 2019 - August 2019">
+                <h3><a href="servicenow.com">ServiceNow</a></h3>
+                <h4>Software Engineering Intern</h4>
                 <p>
-                    ● Work on scalable record linkage of Chinese character data, designed to efficiently handle ~800k pairs of data 
+                    ●	Designed real-time, front-end components in React, connecting to the backend using GraphQL subscriptions
                     <br />
-● Convert R scripts into Python to build user-friendly, distributable software for health researchers worldwide
-               
+●	Reduced synchronization latency of ServiceNow’s Agent Workspace platforms by 300% using Java APIs and JavaScript
+                    <br />
+●	Created a customizable state management tool in JavaScript using directed graphs as a side project
+                    <br />
+●	Reduced platform synchronization errors by 100% by implementing an algorithm to detect cycles in graph data structures
+                    <br />
+●	Wrote functional tests for everything I built with over 90% code coverage, using JUnit (Java) and Jest (JavaScript)               
                 </p>
-            </div>
-            <div data-date="August 2018 – Present">
-                <h3><a href="http://studenttech.berkeley.edu">UC Berkeley Student Tech Services</a></h3>
-                <h4>Student Tech Consultant</h4>
-                <p>
-                    ●	Provide personalized support for hundreds of students, with a 100% success rate 
-                    <br />
-                    ●	Diagnose and solve complex hardware issues within laptops, desktops, and routers                </p>
             </div>
             <div data-date="May 2018 - August 2018">
                 <h3><a href="http://www.zoeticai.com">Zoetic</a></h3>
                 <h4>Software Engineering Intern</h4>
                 <p>
-                    ●	Developed object recognition and communication features for robots using Google Cloud Vision APIs<br />
-●	Implemented Neural Style Transfer combined with extra image processing to portray robotic empathy (incl. Pillow)<br />
-●	Created an in-house API for robots to accurately recognize and react to facial expressions in milliseconds<br />
-●	Manipulated and connected servos to control and test robot movement using Arduino and C++<br />
+                   ● Reduced robot processing load 60% by building a Python Flask API for robots to recognize and react to facial expressions
+                    <br />
+●	Developed object recognition features for robots with a 95% success rate using Google Cloud Vision APIs and ROS
+                    <br />
+●	Implemented Neural Style Transfer in Python to process images in real-time for the robot’s “dreaming” feature
+                    <br />
+●	Manipulated and connected servos to control and test robot movement using Arduino and C++
+<br />
 ●	Wrote two blog articles about <a href="https://www.iatomo.com/blog/2018/05/28/what-is-3d-printing.html">3D Printing</a> and <a href="https://www.iatomo.com/blog/2018/06/18/what-is-neural-style-transfer.html">Neural Style Transfer</a><br />
                 </p>
             </div>
@@ -123,7 +124,7 @@
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>University of California, Berkeley</h3>
-            <span class="education-date">August 2017 - Present</span>
+            <span class="education-date">August 2017 - May 2021</span>
             <h4>B.A. Computer Science, B.A. Public Health</h4>
             <p>
                 Focusing on the intersection between hardware systems, software, and health.
@@ -166,27 +167,65 @@
                             Fitmoh is an organizational health application available on web and mobile devices. It has been a pet project of mine since July 2017, started when I had no coding experience.
                         
                         </p>
-                        <a href="http://fitmoh.com/">View Project</a><img src="images/google-play-badge.png" style="width:200px;"/><img src="images/SVG/black-app-store.svg" style="width:165px;"/>
+                        <a href="https://www.fitmoh.com/">View Project</a><img src="images/google-play-badge.png" style="width:200px;"/><a href="https://apps.apple.com/us/app/fitmoh/id1450048353"><img src="images/SVG/black-app-store.svg" style="width:165px;"/></a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-
-        <!--         <div class="project shadow-large">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/project.jpg" />
                     </div>
-                    
-                   <div class="project-info">
-                        <h3>TunePrimer</h3>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>MyFitnessPal Database Grabber</h3>
                         <p>
-                            A little web application I built to practice using React and the Spotify API.
+                            Developed an unofficial API for MyFitnessPal (MFP) that allows users access their MFP data programmatically. I implemented a persistent cache using Python pickling for MFP food database scraping, improving performance by 200%. I also allowed foods to be stored in a CSV format, which allowed MFP foods to be used for various use cases. Credits to coddingtonbear for the initial codebase.
                         </p>
-                        <a href="#">View Project</a>
-                    </div> 
-                    
+                        <a href="https://github.com/realPrimoh/grab-myfitnesspal">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
                 </div>
-                End .project -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Nutrition Tracking Chatbot</h3>
+                        <p>
+                            This chatbot currently uses the Nutritionix API and Google Cloud Vision API to parse requests and send back appropriate responses.
+                        </p>
+                        <a href="https://github.com/realPrimoh/Fitmoh-Messenger-Chatbot">View Project</a><br />
+                        <a href="m.me/fitmohapp">Try Now!</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>LabelMe! - Crowdsourced Data Labeling</h3>
+                        <p>
+                        Built an iOS app for users to label data and earn money from companies that need labeled machine learning data. This is currently a WIP, so it's not currently public on Github or the App Store yet. It's built using Swift and Firebase.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
             </div>
         </div>
     </div>
@@ -202,7 +241,15 @@
             <li>React</li>
             <li>React Native</li>
             <li>Django</li>
-            <li>R</li>
+            <li>Flask</li>
+            <li>SQL</li>
+            <li>Firebase</li>
+            <li>Swift</li>
+            <li>RESTful API Design</li>
+            <li>Go (Golang)</li>
+            <li>NodeJS</li>
+            <li>GraphQl</li>
+            <li>HTML/CSS</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -226,7 +273,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2018 Priyam Mohanty
+                        Copyright &copy; 2019 Priyam Mohanty
                     </p>
                 </div>
                 <div class="col-sm-2 top">
